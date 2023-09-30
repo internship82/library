@@ -4,7 +4,7 @@
 
 // Edit the database connection details
 $servername = "sql12.freesqldatabase.com";
-$username = "sql12650031";
+$username = "sql12650031@ec2-52-8-112-233.us-west-1.compute.amazonaws.com1";
 $password = "q24rESRvGt";
 $dbname = "sql12650031";
 
