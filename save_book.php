@@ -1,9 +1,12 @@
+
+
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "project_library";
+// Edit the database connection details
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12650031";
+$password = "q24rESRvGt";
+$dbname = "sql12650031";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -30,3 +33,4 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 
 ?>
+
